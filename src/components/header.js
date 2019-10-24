@@ -6,7 +6,7 @@ import "./layout.css"
 const Header = () => (
   <nav className="navbar navbar-expand-sm  navbar-dark bg-dark">
     <div className="container">
-      <Link href="" className="navbar-brand">
+      <Link to="" className="navbar-brand">
         Dada Apartmani
       </Link>
       <button
