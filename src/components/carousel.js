@@ -4,8 +4,9 @@ import $ from "jquery"
 export default class Carousel extends Component {
   componentDidMount() {
     $(".carousel").carousel({
-      interval: 5000,
+      interval: 2000,
       keyboard: true,
+      pause: "hover",
     })
   }
   render() {
