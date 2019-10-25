@@ -20,7 +20,7 @@ export default class Carousel extends Component {
         <div className="col-sm-12">
           <div
             id="slider3"
-            className="carousel slide"
+            className=" carousel slide"
             data-ride="carousel"
             data-keyboard="true"
           >
@@ -34,24 +34,24 @@ export default class Carousel extends Component {
               <li data-target="#slider3" data-slide-to="2"></li>
             </ol>
             <div className="carousel-inner">
-              <div className="carousel-item active">
+              <div className=" carousel-item active">
                 <img
-                  className="d-block  min-vh-100 img-fluid"
-                  src={car1}
+                  className="images-slider d-block  min-vh-100 img-fluid"
+                  src={car3}
                   alt="First Slide"
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  className="d-block min-vh-100 img-fluid"
+                  className="images-slider d-block min-vh-100 img-fluid"
                   src={car2}
                   alt="Second Slide"
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  className="d-block min-vh-100 img-fluid"
-                  src={car3}
+                  className="images-slider d-block min-vh-100 img-fluid"
+                  src={car1}
                   alt="Third Slide"
                 />
               </div>
@@ -74,6 +74,7 @@ export default class Carousel extends Component {
             </a>
           </div>
         </div>
+        <div className="photo"></div>
       </div>
     )
   }
