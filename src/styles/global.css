@@ -4,11 +4,8 @@ html {
 }
 .images-slider {
   object-fit: cover;
-  /* max-height: 100vh; */
   height: 100vh;
   width: 100vw;
-  /* -webkit-filter: brightness(0.5);
-  filter: brightness(0.5); */
 }
 .photo {
   position: absolute;
@@ -17,6 +14,6 @@ html {
   width: 100vw;
   background: linear-gradient(to top, rgb(0, 0, 0), transparent);
 }
-.yo {
-  width: 100vw;
+.container {
+  padding: 0;
 }

@@ -9,7 +9,7 @@ import car3 from "../images/car3.jpg"
 export default class Carousel extends Component {
   componentDidMount() {
     $(".carousel").carousel({
-      interval: 2000,
+      interval: 6000,
       keyboard: true,
       pause: "hover",
     })
@@ -67,7 +67,7 @@ export default class Carousel extends Component {
 
             <a
               href="#slider3"
-              className="carousel-control-next yolo"
+              className="carousel-control-next"
               data-slide="next"
             >
               <span className="carousel-control-next-icon"></span>
